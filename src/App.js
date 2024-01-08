@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AllRoutes from "./router/AllRoutes";
 import ScrollToTop from "./components/ScrollToTop";
 import AnimatedCursor from "react-animated-cursor";
+import HomeOne from "./views/all-home-version/HomeLightAnimation"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -20,7 +21,8 @@ const App = () => {
         outerScale={1.4}
       />
       <ScrollToTop />
-      <AllRoutes />
+      <HomeOne/>
+      {/* <AllRoutes /> */}
     </>
   );
 };
