@@ -71,10 +71,6 @@ const About = () => {
                           <label>Age: </label>
                           <span>27 years</span>
                         </li>
-                        <li>
-                          <label>Address: </label>
-                          <span>Lima</span>
-                        </li>
                       </ul>
                     </div>
                     <div className="col-sm-6">
@@ -87,14 +83,18 @@ const About = () => {
                           <label>Email: </label>
                           <span>alexco.bruno@gmail.com</span>
                         </li>
+                        <li>
+                          <label>Address: </label>
+                          <span>Lima, Peru</span>
+                        </li>
                         {/* <li>
                           <label>Skype: </label>
                           <span>nairob.40</span>
                         </li> */}
-                        <li>
+                        {/* <li>
                           <label>Data Science Freelance: </label>
                           <span>Available</span>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>

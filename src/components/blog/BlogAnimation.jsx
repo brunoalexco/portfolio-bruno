@@ -185,13 +185,11 @@ const News = () => {
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
-                    <li href="#">Design</li>
-                    <li href="#">Development</li>
-                    <li href="#">Travel</li>
-                    <li href="#">Web Design</li>
-                    <li href="#">Marketing</li>
+                    <li href="#">Tesing</li>
+                    <li href="#">Demo</li>
                     <li href="#">Research</li>
-                    <li href="#">Managment</li>
+                    <li href="#">MVP</li>
+                    <li href="#">Product</li>
                   </ul>
                   {/* End tag */}
                 </article>
