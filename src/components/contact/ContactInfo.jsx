@@ -4,9 +4,9 @@ const ContactInfo = () => {
   return (
     <>
       <div className="contact-info">
-        <h4>Do you want to hire me or collaborate? Get in touch</h4>
+        <h4>Do you want to hire me or say hi? Get in touch</h4>
         <p>
-          Feel free to contact me.
+          I usually reply within a day. Feel free to reach out!
         </p>
 
         <ul>

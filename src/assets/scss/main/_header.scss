@@ -38,6 +38,21 @@
       text-align: center;
     }
   }
+
+  .hl-log-img {
+    background: $px-theme;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .logo { 
+    width: 70px; 
+    height: 70px;
+}
+
   .nav-menu {
     padding-top: 45px;
     padding-bottom: 45px;

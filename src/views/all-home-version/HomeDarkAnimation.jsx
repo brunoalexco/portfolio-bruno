@@ -13,7 +13,7 @@ import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeOne = () => {
   useDocumentTitle(
-    "Nairo || Theme Dark Animation React Personal Portfolio Template"
+    "Bruno Cornelio"
   );
   return (
     <div className="main-left theme-dark">
@@ -53,7 +53,7 @@ const HomeOne = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-lg-5 col-xl-4 m-15px-tb"
+              className="col-lg-6 m-15px-tb"
               data-aos="fade-right"
               data-aos-duration="1200"
             >
@@ -61,7 +61,7 @@ const HomeOne = () => {
             </div>
             {/* End Contact info */}
 
-            <div
+            {/* <div
               className="col-lg-7 ml-auto m-15px-tb"
               data-aos="fade-right"
               data-aos-duration="1200"
@@ -71,18 +71,18 @@ const HomeOne = () => {
                 <h4>Say Something</h4>
                 <Contact />
               </div>
-            </div>
+            </div> */}
             {/* End contact form */}
 
-            <div
+            {/* <div
               className="col-12"
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="300"
             >
-              <Map />
+              <Map /> */}
               {/* End google-map */}
-            </div>
+            {/* </div> */}
             {/* End Col */}
           </div>
         </div>

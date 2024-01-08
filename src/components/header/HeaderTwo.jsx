@@ -38,7 +38,7 @@ const HeaderTwo = () => {
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">
-              <Link to="/">N</Link>
+              <Link to="/">B</Link>
             </div>
           </div>
           {/* End htl-top */}

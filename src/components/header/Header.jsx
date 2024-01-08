@@ -32,9 +32,12 @@ const Header = () => {
       <header className={click ? "header-left menu-open" : "header-left "}>
         <div className="scroll-bar">
           <div className="hl-top">
-            <div className="hl-logo">
-              <Link to="/">N</Link>
+            <div className="hl-log-img">
+              <img className="logo" src={`img/logo/logo.png`} alt="blog post"></img>
             </div>
+            {/* <div className="hl-logo">
+              <Link to="/">B</Link>
+            </div> */}
           </div>
           {/* End htl-top */}
 
