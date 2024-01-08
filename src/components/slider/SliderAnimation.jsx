@@ -23,7 +23,7 @@ const Slider = () => {
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
             <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a>
-            <a href="mailto:mail%20to:ibthemes21@gmail.com,com">
+            <a href="mailto:mail%20to:alexco.bruno@gmail.com,com">
               {conctInfo.email}
             </a>
           </div>
@@ -45,7 +45,7 @@ const Slider = () => {
             <div className="col-lg-7">
               <div className="type-box">
                 <h6 data-aos="fade-up" data-aos-duration="1200">
-                  Hello, My name is
+                  Welcome! My name is
                 </h6>
                 <h1
                   className="font-alt"
@@ -62,7 +62,7 @@ const Slider = () => {
                 >
                   <TextLoop>
                     <p className="loop-text lead">Product Owner</p>
-                    <p className="loop-text lead"> Data Scientist</p>
+                    <p className="loop-text lead">Data Scientist</p>
                   </TextLoop>
                 </div>
 
@@ -82,7 +82,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="img/resume.png"
+                    href="https://drive.google.com/drive/folders/1bzFqcqPpfGri49yFaC1qEIjDs-RUQfUo?usp=sharing" target="_blank"
                     download
                   >
                     {sliderContent.btnText}

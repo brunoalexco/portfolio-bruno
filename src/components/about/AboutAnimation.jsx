@@ -18,7 +18,7 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about" />
+                    <img src="img/about/about-me.png" alt="about" />
                   </div>
 
                   <Social />
@@ -27,7 +27,7 @@ const About = () => {
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Ux/Ui Designer</p>
+                  <p>Product Owner & Data Scientist</p>
                   <h3>Bruno Cornelio</h3>
                 </div>
                 {/* End info */}
@@ -49,10 +49,10 @@ const About = () => {
 
                 <div className="about-text">
                   <p>
-                  I am a Product Owner with about 5 years of professional experience and 1 year in the PO position. Most of the year, I live in Lima, Peru, and sometimes I travel to other provinces of Peru or abroad. I am very creative and analytical. I can manage digital products from an idea to the launch of an MVP. I create wireframes in Figma, I have intermediate knowledge of Data Science, and I know the basics of coding.
+                  I'm a Product Owner with five years of professional experience, including one year in the PO role. I live in Lima, Peru, for most of the year, but I also travel to other regions of Peru or abroad occasionally. I’m a creative and analytical thinker who can take a digital product from an idea to an MVP. I use Figma to create wireframes, I have intermediate skills in Data Science, and I know the fundamentals of coding.
                   </p>
                   <p>
-                  Throughout the years, I have worn several hats. I started as a Trainee of systems and processes, where I developed an LMS with Docebo. Then, I was promoted to Project Coordinator. During the pandemic, I decided to start a digital marketing agency that failed, but I learned a lot about the digital world and how to handle clients. After that, I worked as a Success Manager. This experience involved hundreds of calls and meetings that helped me improve my communication skills and understand the clients' problems. Therefore, I proposed to the CTO that I be the Product Owner of a new product that the company wanted to launch.
+                  I have a diverse background in different fields and roles. I started as a Trainee of systems and processes, where I developed an LMS with Docebo. Then, I got promoted to Project Coordinator. During the pandemic, I started a digital marketing agency, which didn't work out, but I earned a lot of insights into the digital world and how to handle clients. After that, I worked as a Success Manager. This experience helped me improve my communication skills and understand what the clients need. At the beginning of 2023, I suggested to the CTO that I should be the Product Owner of a new product that the company wanted to launch.
                   </p>
                 </div>
                 <div className="info-list">
@@ -87,10 +87,10 @@ const About = () => {
                           <label>Email: </label>
                           <span>alexco.bruno@gmail.com</span>
                         </li>
-                        <li>
+                        {/* <li>
                           <label>Skype: </label>
                           <span>nairob.40</span>
-                        </li>
+                        </li> */}
                         <li>
                           <label>Data Science Freelance: </label>
                           <span>Available</span>
@@ -125,22 +125,22 @@ const About = () => {
           {/* End .row */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Awards.</h3>
           </div>
 
           <Awards />
-          {/* End Awards */}
+          End Awards */}
 
           {/* separated */}
           <div
@@ -153,11 +153,11 @@ const About = () => {
           ></div>
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Testimonials.</h3>
           </div>
 
-          <Testimonials />
+          <Testimonials /> */}
           {/* End Testimonaial */}
         </div>
       </section>

@@ -12,7 +12,7 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Branding", "Photography", "Fashion", "Product"];
+const tabList = ["All", "Product", "DS & ML"];
 const tabListContent = [
   {
     porftoliItems: [
@@ -82,38 +82,38 @@ const tabListContent = [
         portfolioLink:
           "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
       },
-      {
-        img: "/img/portfolio/m-portfolio-7.jpg",
-        width: 400,
-        height: 700,
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "Business Card",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-8.jpg",
-        width: 400,
-        height: 550,
-        title: "Chatting App Design",
-        subTitle: "Codecanyon Market",
-        alterText: "Chatting App Design",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-9.jpg",
-        width: 400,
-        height: 400,
-        title: "Web Motion",
-        subTitle: "Behance Shot",
-        alterText: "Web Motion",
-        delayAnimation: "200",
-        portfolioLink: "https://www.facebook.com/ibthemes",
-      },
+      // {
+      //   img: "/img/portfolio/m-portfolio-7.jpg",
+      //   width: 400,
+      //   height: 700,
+      //   title: "Business Card",
+      //   subTitle: "Graphicriver Market",
+      //   alterText: "Business Card",
+      //   delayAnimation: "0",
+      //   portfolioLink:
+      //     "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+      // },
+      // {
+      //   img: "/img/portfolio/m-portfolio-8.jpg",
+      //   width: 400,
+      //   height: 550,
+      //   title: "Chatting App Design",
+      //   subTitle: "Codecanyon Market",
+      //   alterText: "Chatting App Design",
+      //   delayAnimation: "100",
+      //   portfolioLink:
+      //     "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+      // },
+      // {
+      //   img: "/img/portfolio/m-portfolio-9.jpg",
+      //   width: 400,
+      //   height: 400,
+      //   title: "Web Motion",
+      //   subTitle: "Behance Shot",
+      //   alterText: "Web Motion",
+      //   delayAnimation: "200",
+      //   portfolioLink: "https://www.facebook.com/ibthemes",
+      // },
     ],
   },
   {
@@ -151,17 +151,17 @@ const tabListContent = [
         portfolioLink:
           "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
       },
-      {
-        img: "/img/portfolio/m-portfolio-4.jpg",
-        width: 400,
-        height: 400,
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "E-Cosmetics",
-        delayAnimation: "300",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
+      // {
+      //   img: "/img/portfolio/m-portfolio-4.jpg",
+      //   width: 400,
+      //   height: 400,
+      //   title: "Business Card",
+      //   subTitle: "Graphicriver Market",
+      //   alterText: "E-Cosmetics",
+      //   delayAnimation: "300",
+      //   portfolioLink:
+      //     "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+      // },
     ],
   },
   {
@@ -202,91 +202,91 @@ const tabListContent = [
       },
     ],
   },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/m-portfolio-1.jpg",
-        width: 400,
-        height: 550,
-        title: "Bottle Illustration",
-        subTitle: "Figma Shoot",
-        alterText: "Bottle Illustration",
-        delayAnimation: "",
-        portfolioLink:
-          "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-7.jpg",
-        width: 400,
-        height: 700,
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "Business Card",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-9.jpg",
-        width: 400,
-        height: 400,
-        title: "Web Motion",
-        subTitle: "Behance Shot",
-        alterText: "Web Motion",
-        delayAnimation: "200",
-        portfolioLink: "https://www.facebook.com/ibthemes",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/m-portfolio-2.jpg",
-        width: 400,
-        height: 400,
-        title: "E-Learning App",
-        subTitle: "Nuna ios App",
-        alterText: "Illustration",
-        delayAnimation: "",
-        portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-3.jpg",
-        width: 400,
-        height: 700,
-        title: "Visual Design",
-        subTitle: "Themeforest Marke",
-        alterText: "Business Mockup",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      },
+  // {
+  //   porftoliItems: [
+  //     {
+  //       img: "/img/portfolio/m-portfolio-1.jpg",
+  //       width: 400,
+  //       height: 550,
+  //       title: "Bottle Illustration",
+  //       subTitle: "Figma Shoot",
+  //       alterText: "Bottle Illustration",
+  //       delayAnimation: "",
+  //       portfolioLink:
+  //         "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
+  //     },
+  //     {
+  //       img: "/img/portfolio/m-portfolio-7.jpg",
+  //       width: 400,
+  //       height: 700,
+  //       title: "Business Card",
+  //       subTitle: "Graphicriver Market",
+  //       alterText: "Business Card",
+  //       delayAnimation: "100",
+  //       portfolioLink:
+  //         "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+  //     },
+  //     {
+  //       img: "/img/portfolio/m-portfolio-9.jpg",
+  //       width: 400,
+  //       height: 400,
+  //       title: "Web Motion",
+  //       subTitle: "Behance Shot",
+  //       alterText: "Web Motion",
+  //       delayAnimation: "200",
+  //       portfolioLink: "https://www.facebook.com/ibthemes",
+  //     },
+  //   ],
+  // },
+  // {
+  //   porftoliItems: [
+  //     {
+  //       img: "/img/portfolio/m-portfolio-2.jpg",
+  //       width: 400,
+  //       height: 400,
+  //       title: "E-Learning App",
+  //       subTitle: "Nuna ios App",
+  //       alterText: "Illustration",
+  //       delayAnimation: "",
+  //       portfolioLink:
+  //         "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+  //     },
+  //     {
+  //       img: "/img/portfolio/m-portfolio-3.jpg",
+  //       width: 400,
+  //       height: 700,
+  //       title: "Visual Design",
+  //       subTitle: "Themeforest Marke",
+  //       alterText: "Business Mockup",
+  //       delayAnimation: "100",
+  //       portfolioLink:
+  //         "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+  //     },
 
-      {
-        img: "/img/portfolio/m-portfolio-5.jpg",
-        width: 400,
-        height: 700,
-        title: "Chatting Application",
-        subTitle: "Codecanyon Market",
-        alterText: "Bottle Illustration",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-6.jpg",
-        width: 400,
-        height: 550,
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
-        delayAnimation: "300",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-    ],
-  },
+  //     {
+  //       img: "/img/portfolio/m-portfolio-5.jpg",
+  //       width: 400,
+  //       height: 700,
+  //       title: "Chatting Application",
+  //       subTitle: "Codecanyon Market",
+  //       alterText: "Bottle Illustration",
+  //       delayAnimation: "200",
+  //       portfolioLink:
+  //         "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+  //     },
+  //     {
+  //       img: "/img/portfolio/m-portfolio-6.jpg",
+  //       width: 400,
+  //       height: 550,
+  //       title: "Web Application",
+  //       subTitle: "Behance Shot",
+  //       alterText: "Web Application",
+  //       delayAnimation: "300",
+  //       portfolioLink:
+  //         "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+  //     },
+  //   ],
+  // },
 ];
 
 const PortfolioAnimation = () => {

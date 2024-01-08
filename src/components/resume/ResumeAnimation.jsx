@@ -3,61 +3,76 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Front-end Engineer`,
-    jobType: `Google | Remote`,
-    jobDuration: `Feb 2021 - Present`,
+    jobPosition: `Implementation Specialist`,
+    jobType: `Openloop Health | Hybrid`,
+    jobDuration: `Nov 2023 - Dic 2023`,
     timeDuraton: `Full Time`,
-    compnayName: "Google LLC",
-    jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    compnayName: "Openloop Health",
+    jobDescription: `I worked on the team responsible for implementing telemedicine solutions in clinics and hospitals in the USA. I was being trained to collaborat on the connections between platforms (Healthie, RCM middleware, Zoho Flow, Zoho Desk) using middlewares and APIs along with the Senior Implementation Managers.`,
     delayAnimation: "",
   },
   {
-    jobPosition: `Visual Designer`,
-    jobType: `Ridian | Remote`,
-    jobDuration: `Mar 2020 - Present`,
-    timeDuraton: `Part Time`,
-    compnayName: "Ridian IT",
-    jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua.`,
+    jobPosition: `Product Owner`,
+    jobType: `Idxboost | Remote`,
+    jobDuration: `Jan 2023 - Nov 2023`,
+    timeDuraton: `Full Time`,
+    compnayName: "Idxboost",
+    jobDescription: `At Idxboost, a real estate business accelerator, I designed and launched a new webchat product that connects agents and leads. I led user testing, product development, and MVP launch with a team of developers using scrum. I also onboarded early adopters, analyzed KPIs, and trained my team and users.`,
+    delayAnimation: "",
+  },
+  {
+    jobPosition: `Success Manager`,
+    jobType: `Tremgroup | Remote`,
+    jobDuration: `Jul 2021 - Nov 2023`,
+    timeDuraton: `Full Time`,
+    compnayName: "Tremgroup",
+    jobDescription: `At TREM Group, a Miami-based real estate marketing agency, I worked as a Success Manager and a Project Manager. I coordinated with various teams to deliver high-quality websites and PPC campaigns for over 15 clients. I had one of the lowest churn rates in the company. I also led the development and launch of a new product, Vacation Rentals browser, for our client Compass.`,
     delayAnimation: "100",
   },
   {
-    jobPosition: `Animation Artist`,
-    jobType: `IbThemes | Remote`,
-    jobDuration: `Jan 2019 - Present`,
+    jobPosition: `Entrepreneurial Experience`,
+    jobType: `Digitalem`,
+    jobDuration: `Oct 2020 - Jun 2021`,
     timeDuraton: `Full Time`,
-    compnayName: "IB Themes",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    compnayName: "Idxboost",
+    jobDescription: `I started a Digital marketing agency specialized in tourism agencies with the goal of boosting their digital presence`,
+    delayAnimation: "",
+  },
+  {
+    jobPosition: `Project Coordinator`,
+    jobType: `Latamready | On-site`,
+    jobDuration: `Mar 2019 - Aug 2020`,
+    timeDuraton: `Full Time`,
+    compnayName: "Latamready",
+    jobDescription: ` At LatamReady, the leading ERP and Tax Compliance company in Latin America, I was a Project Coordinator for LatamReady SuiteApp, a solution integrated with Oracle NetSuite. I led successful implementations for clients in different subsidiaries in LatAm, communicating effectively, coordinating teams, ensuring quality, and completing projects on time.`,
     delayAnimation: "200",
+  },
+  {
+    jobPosition: `System and Processes Trainee`,
+    jobType: `Latamready | On-site`,
+    jobDuration: `Jan 2019 - Mar 2019`,
+    timeDuraton: `Full Time`,
+    compnayName: "Latamready",
+    jobDescription: ` At LatamReady, the leading ERP and Tax Compliance company in Latin America, I was a Project Coordinator for LatamReady SuiteApp, a solution integrated with Oracle NetSuite. I led successful implementations for clients in different subsidiaries in LatAm, communicating effectively, coordinating teams, ensuring quality, and completing projects on time.`,
+    delayAnimation: "300",
   },
 ];
 
 const educatonContent = [
   {
-    passingYear: "2018-2020",
-    degreeTitle: "Ph.D in Horriblensess",
-    instituteName: "University Of Evil Doing",
+    passingYear: "2023-2024",
+    degreeTitle: "Data Science & Machine Learning",
+    instituteName: "Coding Dojo",
   },
   {
-    passingYear: "2013-2016",
-    degreeTitle: "Bsc. in Computer Science",
-    instituteName: "World University",
+    passingYear: "2022",
+    degreeTitle: "Especialization in Agile Methodologies",
+    instituteName: "Pacifico Business School",
   },
   {
-    passingYear: "2010-2012",
-    degreeTitle: "Graphic Artist Training ",
-    instituteName: "Graphic Master Institute",
+    passingYear: "2014-2019",
+    degreeTitle: "Bachelor of Business Administration (BA)",
+    instituteName: "Universidad San Ignacio de Loyola",
   },
 ];
 
@@ -67,7 +82,7 @@ const Resume = () => {
       <section id="resume" className="section">
         <div className="container">
           <div className="title">
-            <h3>Experience.</h3>
+            <h3>Experience</h3>
           </div>
           {/* End title */}
           <div className="resume-box">
