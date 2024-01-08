@@ -34,7 +34,7 @@ const resumeContent = [
     jobType: `Digitalem`,
     jobDuration: `Oct 2020 - Jun 2021`,
     timeDuraton: `Full Time`,
-    compnayName: "Idxboost",
+    compnayName: "Digitalem",
     jobDescription: `I started a Digital marketing agency specialized in tourism agencies with the goal of boosting their digital presence`,
     delayAnimation: "",
   },
