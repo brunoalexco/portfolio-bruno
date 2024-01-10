@@ -37,13 +37,13 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    I'mdd a Freelancer Front-end Developer with over 3 years of
+                    I'm a Freelancer Front-end Developer with over 3 years of
                     experience. I'm from San Francisco. I code and create web
                     elements for amazing people around the world. I like work
                     with new people. New people new Experiences.
                   </p>
                   <p>
-                    I'mdd a Freelancer Front-end Developer with over 3 years of
+                    I'md a Freelancer Front-end Developer with over 3 years of
                     experience. I'm from San Francisco. I code and create web
                     elements for amazing people around the world. I like work
                     with new people. New people new Experiences.
