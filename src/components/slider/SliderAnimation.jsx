@@ -19,9 +19,9 @@ const sliderContent = {
 const Slider = () => {
   const photo = useCss({
     transform: "scale(1.3)",
-    backgroundPosition: "center",
     "@media only screen and (max-width: 360px)": {
       transform: "scale(1.1)",
+      marginLeft: "5px",
     },
   });
   return (
@@ -103,11 +103,12 @@ const Slider = () => {
         </div>
         {/* End Container*/}
         <div
-          className={`bh-me`}
+          className={`hb-me ${photo}`}
           style={{
             backgroundImage: `url(${
               process.env.PUBLIC_URL + "img/slider/home-banner.png"
             })`,
+            backgroundPosition: "center",
           }}
         ></div>
       </section>
