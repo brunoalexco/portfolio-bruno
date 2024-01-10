@@ -22,7 +22,7 @@ const skillContent = [
     endCount: "50",
   },
   {
-    name: "Machine Learling modeling",
+    name: "Machine Learning",
     numberPercent: "40",
     startCount: "0",
     endCount: "40",
