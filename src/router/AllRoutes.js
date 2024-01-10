@@ -15,9 +15,8 @@ const AllRoutes = () => {
     <>
       <ScrollTopBehaviour />
       <Routes>
-        <Route path="/" element={<Preview />} />
-        <Route path="/home-light-animation" element={<HomeLightAnimation />} />
-        <Route
+        {/* <Route path="/" element={<Preview />} /> */}
+        {/* <Route
           path="/home-light-rtl-animation"
           element={<HomeLightRtlAnimation />}
         />
@@ -29,8 +28,9 @@ const AllRoutes = () => {
         <Route
           path="/home-light-professional-2"
           element={<HomeLightProfessional2 />}
-        />
-        <Route path="/home-dark-animation" element={<HomeDarkAnimation />} />
+        /> */}
+        <Route index element={<HomeLightAnimation />} />
+        <Route path=":mode" element={<HomeDarkAnimation />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

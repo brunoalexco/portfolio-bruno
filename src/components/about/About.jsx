@@ -104,7 +104,7 @@ const About = () => {
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
-              })`
+              })`,
             }}
           ></div>
           {/* End separated */}
