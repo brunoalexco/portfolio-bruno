@@ -1,5 +1,6 @@
 import React from "react";
 import TextLoop from "react-text-loop";
+import { useCss } from "react-use";
 
 const conctInfo = {
   phone: "+51 955798986",
@@ -16,6 +17,13 @@ const sliderContent = {
 };
 
 const Slider = () => {
+  const photo = useCss({
+    transform: "scale(1.3)",
+    "@media only screen and (max-width: 360px)": {
+      transform: "scale(1.1)",
+      marginLeft: "5px",
+    },
+  });
   return (
     <>
       {/*  Home Banner */}
@@ -82,7 +90,8 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="https://drive.google.com/drive/folders/1bzFqcqPpfGri49yFaC1qEIjDs-RUQfUo?usp=sharing" target="_blank"
+                    href="https://drive.google.com/drive/folders/1bzFqcqPpfGri49yFaC1qEIjDs-RUQfUo?usp=sharing"
+                    target="_blank"
                     download
                   >
                     {sliderContent.btnText}
@@ -94,11 +103,12 @@ const Slider = () => {
         </div>
         {/* End Container*/}
         <div
-          className="hb-me"
+          className={`hb-me ${photo}`}
           style={{
             backgroundImage: `url(${
               process.env.PUBLIC_URL + "img/slider/home-banner.png"
             })`,
+            backgroundPosition: "center",
           }}
         ></div>
       </section>

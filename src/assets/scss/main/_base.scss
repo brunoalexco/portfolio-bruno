@@ -208,7 +208,7 @@ a {
 }
 
 /* ----------------------
-*	owl 
+*	owl
 ---------------------------*/
 .owl-dots {
   text-align: center;
@@ -241,4 +241,13 @@ a {
       max-width: 100%;
     }
   }
+}
+
+// switch styles
+
+.MuiSwitch-root {
+  position: absolute !important;
+  z-index: 9999999 !important;
+  right: 30px;
+  top: 25px;
 }
