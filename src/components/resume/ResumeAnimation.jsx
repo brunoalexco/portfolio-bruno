@@ -14,7 +14,7 @@ const resumeContent = [
   {
     jobPosition: `Product Owner`,
     jobType: `Idxboost | Remote`,
-    jobDuration: `Jan 2023 - Nov 2023`,
+    jobDuration: `Nov 2022 - Nov 2023`,
     timeDuraton: `Full Time`,
     compnayName: "Idxboost",
     jobDescription: `At Idxboost, a real estate business accelerator, I designed and launched a new webchat product that connects agents and leads. I led user testing, product development, and MVP launch with a team of developers using scrum. I also onboarded early adopters, analyzed KPIs, and trained my team and users.`,
