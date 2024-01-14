@@ -8,7 +8,7 @@ const resumeContent = [
     jobDuration: `Nov 2023 - Dic 2023`,
     timeDuraton: `Full Time`,
     compnayName: "Openloop Health",
-    jobDescription: `I worked on the team responsible for implementing telemedicine solutions in clinics and hospitals in the USA. I was being trained to collaborat on the connections between platforms (Healthie, RCM middleware, Zoho Flow, Zoho Desk) using middlewares and APIs along with the Senior Implementation Managers.`,
+    jobDescription: `I worked on the team responsible for implementing telemedicine custom software solutions in clinics and hospitals in the USA. Closely working with Senior Implementation managers, I was being trained to collaborate on the connections between software platforms (Healthie, RCM middleware, Zoho Flow, Zoho Desk) using middleware and API's.`,
     delayAnimation: "",
   },
   {
